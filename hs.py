@@ -46,7 +46,7 @@ if __name__ == "__main__":
   # matrix inicial donde se calcularan las presiones
   matrix_presiones = np.zeros(shape=(cantidad_columnas,cantidad_rendijas)) 
   # cantidad de iteraciones para que los valores
-  iteraciones = 3
+  iteraciones = 4
   calcula_presiones(cantidad_columnas,cantidad_rendijas,matrix_presiones,iteraciones)  
   #calcula_velocidades()
 
