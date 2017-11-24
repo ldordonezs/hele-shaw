@@ -137,5 +137,5 @@ if __name__ == "__main__":
   matestorbo= np.ones(shape=(filas,colll))
   latotal= np.ones(shape=(filas,colll))
   # cantidad de iteraciones para que los valores
-  iteraciones = 500
+  iteraciones = 10000
   matrismulti(filas,colll,matrizpre,iteraciones,valor_obstaculo_x,valor_obstaculo_y,valor_obstaculo_x1,valor_obstaculo_y1)
